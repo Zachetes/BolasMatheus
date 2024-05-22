@@ -1,0 +1,59 @@
+body {
+  background-image: url(imagem/background.png);
+  overflow: hidden;
+  
+  background-repeat: no-repeat;
+  
+}
+
+.cabeca {
+position: relative;
+  top: 0;
+  left: 0;
+}
+
+.logocabeca {
+    position: relative;
+  top: 0;
+  left: 0;
+  transition: 0.2s ease-in-out;
+  user-select: none;
+
+  
+}
+
+.logocabeca:hover {
+    transform: scale(1.09) rotate(0.5deg);
+    cursor: pointer;
+}
+
+.fundocabeca
+{
+    position: absolute;
+  top: 0;
+  left: 0;
+  user-select: none;
+}
+
+.menu img{
+  transition: 0.2s ease-in-out;
+  user-select: none;
+  margin-left: 5vw;
+  margin-right: 5vw;
+
+}
+
+.menu img:hover {
+  transform: scale(1.09) rotate(0.5deg);
+}
+
+.menu {
+  margin-top: 10px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  user-select: none;
+  
+}
+
+
