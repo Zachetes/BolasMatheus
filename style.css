@@ -1,0 +1,813 @@
+body {
+  background-image: url(imagem/background.png);
+  overflow: hidden;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.cabeca {
+position: relative;
+  top: 0;
+  left: 0;
+}
+
+.logocabeca {
+    position: relative;
+  top: 0;
+  left: 0;
+  transition: 0.2s ease-in-out;
+  user-select: none;
+
+  
+}
+
+.logocabeca:hover {
+    transform: scale(1.09) rotate(0.5deg);
+    cursor: pointer;
+    filter: brightness(1.3);
+}
+
+.fundocabeca
+{
+    position: absolute;
+  top: 0;
+  left: 0;
+  user-select: none;
+}
+
+.menu img{
+  transition: 0.2s ease-in-out;
+  user-select: none;
+  margin-left: 5vw;
+  margin-right: 5vw;
+
+}
+
+.menu img:hover {
+  transform: scale(1.09) rotate(0.5deg);
+  filter: brightness(1.3);
+
+}
+
+.menu {
+  margin-top: 10px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  user-select: none;
+  
+}
+
+.Seta:{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  float: left;
+}
+
+.Seta:hover{
+  transform: scale(1.09) rotate(0.5deg);
+  filter: brightness(1.3);
+}
+
+.Mapa {
+  position: absolute  ;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 45vw;
+  height: 95vh;
+  z-index: 1;
+
+
+}
+
+.Lixo:hover{
+  transform: scale(2.3);
+  cursor: pointer;
+  filter: brightness(3);
+
+}
+
+.Lixo{
+  position: absolute ;
+  margin-right: -50%;
+  width: 1.4vw;
+  height: 3vh;
+  z-index: 2;
+  transition: 0.2s ease-in-out;
+}
+
+.Lixoso {
+  height: 0px;
+  width: 0px;
+}
+
+.FundoLixo{
+top: 40%;
+  left: 74%;
+  position:absolute;
+  z-index: 1;
+  width: 25%;
+}
+
+#Um{
+  top: 71%;
+  left: 66.5%;
+}
+
+
+#Num2 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num2:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Dois{
+    top: 73%;
+    left: 63%;
+}
+
+#Num3 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num3:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Tres{
+    top: 74%;
+    left: 59.5%;
+}
+
+#Num4 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num4:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Quatro{
+    top: 75%;
+    left: 47.5%;
+}
+
+#Num5 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num5:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Cinco{
+    top: 79%;
+    left: 45%;
+}
+
+#Num6 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num6:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Seis{
+    top: 83.7%;
+    left: 42%;
+}
+
+#Num7 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num7:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Sete{
+    top: 80%;
+    left: 40%;
+}
+
+#Num8 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num8:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Oito{
+    top: 72%;
+    left: 37.5%;
+}
+
+#Num9 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num9:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Nove{
+    top: 70%;
+    left: 40%;
+}
+
+#Num10 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num10:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Dez{
+    top: 68.5%;
+    left: 44%;
+}
+
+#Num11 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num11:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Onze{
+    top: 65%;
+    left: 49.5%;
+}
+
+#Num12 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num12:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Doze{
+    top: 51%;
+    left: 52.5%;
+}
+
+#Num13 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num13:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Treze{
+    top: 49%;
+    left: 55%;
+}
+
+#Num14 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num14:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Quatorze{
+    top: 47%;
+    left: 57.7%;
+}
+
+#Num15 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num15:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Quinze{
+    top: 42.5%;
+    left: 60%;
+}
+
+#Num16 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num16:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Dezesseis{
+    top: 45%;
+    left: 59%;
+}
+
+#Num17 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num17:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Dezessete{
+    top: 26%;
+    left: 60.5%;
+}
+
+
+#Num18 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num18:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Dezoito{
+    top: 24%;
+    left: 58.5%;
+}
+
+#Num19 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num19:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Dezenove{
+    top: 24%;
+    left: 56.5%;
+}
+
+#Num20 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num20:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Vinte{
+    top: 21.3%;
+    left: 55.4%;
+}
+
+#Num21 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num21:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Vinte1{
+    top: 20%;
+    left: 53.6%;
+}
+
+#Num22 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num22:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Vinte2{
+    top: 18%;
+    left: 51%;
+}
+
+#Num23 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num23:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Vinte3{
+    top: 19%;
+    left: 49.7%;
+}
+
+
+#Num24 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num24:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Vinte4{
+    top: 24%;
+    left: 52%;
+}
+
+#Num25 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num25:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Vinte5{
+    top: 27%;
+    left: 51%;
+}
+
+
+#Num26 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num26:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Vinte6{
+    top: 31%;
+    left: 51%;
+}
+
+#Num27 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num27:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Vinte7{
+    top: 34%;
+    left: 50.4%;
+}
+
+#Num28 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num28:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Vinte8{
+    top: 43.2%;
+    left: 49.7%;
+}
+
+#Num29 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num29:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Vinte9{
+    top: 47%;
+    left: 44.7%;
+}
+
+#Num30 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num30:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Trinta{
+    top: 51%;
+    left: 38%;
+}
+
+#Num31 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num31:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Trinta1{
+    top: 51.3%;
+    left: 37%;
+}
+
+#Num32 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num32:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Trinta2{
+    top: 54.5%;
+    left: 36%;
+}
+
+#Num33 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num33:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Trinta3{
+    top: 60%;
+    left: 36%;
+}
+
+
+#Num34 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num34:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Trinta4{
+    top: 57.5%;
+    left: 41%;
+}
+
+
+#Num35 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num35:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Trinta5{
+    top: 56%;
+    left: 42%;
+}
+
+#Num36 .Sobreposicao {
+  top: 40%;
+  left: 74%;
+  position:absolute;
+  visibility:hidden;  
+  z-index: 2;
+  width: 25%;
+  }
+  
+#Num36:hover .Sobreposicao {
+  visibility:visible;
+  }
+  
+
+  #Trinta6{
+    top: 55%;
+    left: 47%;
+}
+
+.imagem_tipo {
+  position:absolute; 
+  top: 15%;
+  left: 15%;
+  z-index: 1;
+  transition: 1s ease-in-out;
+}
+
+.imagem_logo {
+  position:absolute; 
+  top: 3%;
+  left: 10%;
+  width: 50%;
+z-index: 2;
+opacity: 0.99;
+
+}
+
+.imagem_tipo:hover {
+  transform: rotate(1deg)
+}
